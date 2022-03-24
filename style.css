@@ -1,0 +1,37 @@
+form {
+    max-width: 600px;
+    background-color: bisque;
+    margin: 100px auto;
+    padding: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+form div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 2px blue;
+    outline: 0;
+    
+}
+
+form div input:active {
+    border-color: brown;
+}
+
+form input:nth-child(4) {
+    border-color: antiquewhite;
+    background-color: lightsalmon;
+    margin-left: 510px;
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(139, 34, 34), rgb(80, 179, 80), rgb(139, 41, 126));
+    font-weight: 900;
+    margin-top: 60px;
+    font-size: large;
+    padding: 8px 20px 8px 20px;
+    color: rgb(233, 227, 220);
+
+}
